@@ -7,8 +7,6 @@ The study focuses on how transaction frequency, amount, and behavioral signals (
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 - **data/**
   - `raw.csv` – Raw transactional dataset  
   - `data.parquet` – Cleaned and processed dataset  
