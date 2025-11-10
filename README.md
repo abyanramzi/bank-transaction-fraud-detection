@@ -7,20 +7,29 @@ The study focuses on how transaction frequency, amount, and behavioral signals (
 
 ## 📂 Project Structure
 
-📁 data/
-┣ raw.csv # Raw transactional dataset
-┣ data.parquet # Cleaned and processed dataset
-┗ data_clustering.csv # Clustered dataset (KMeans + PCA)
+## 📂 Project Structure
 
-📁 src/
-┣ 01. Exploratory Data Analysis.ipynb
-┣ 02. Data Cleaning and Processing.ipynb
-┗ 03. Model Clustering.ipynb
+- **data/**
+  - `raw.csv` – Raw transactional dataset  
+  - `data.parquet` – Cleaned and processed dataset  
+  - `data_clustering.csv` – Clustered dataset (KMeans + PCA)
 
-📁 models/
-┣ model_cluster.h5 # Saved KMeans model
-┗ PCA_model_clustering.h5 # Saved PCA projection model
+- **src/**
+  - `01. Exploratory Data Analysis.ipynb`
+  - `02. Data Cleaning and Processing.ipynb`
+  - `03. Model Clustering.ipynb`
 
+- **models/**
+  - `model_cluster.h5` – Saved KMeans model  
+  - `PCA_model_clustering.h5` – Saved PCA projection model
+
+- **assets/**
+  - `eda_correlation.png` 
+  - `eda_scatter.png` 
+  - `eda_pie.png` 
+  - `elbow_curve.png` 
+  - `cluster_distribution.png` 
+  - `pca_clusters.png` 
 
 ---
 
