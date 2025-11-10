@@ -64,11 +64,11 @@ EDA was performed to understand relationships and behavioral distributions among
     Q3: Low Frequency & Low Amount
     Q4: High Frequency & Low Amount
 
-![Transaction Behavior Scatter](assets/eda_scatter.png)
+    ![Transaction Behavior Scatter](assets/eda_scatter.png)
 
 3. **Pie Chart** of Account Class Distribution  
-→ Displays the proportion of accounts in each behavioral class.  
-![Account Class Pie Chart](assets/eda_pie.png)
+    → Displays the proportion of accounts in each behavioral class.  
+    ![Account Class Pie Chart](assets/eda_pie.png)
 
 ---
 
@@ -99,8 +99,6 @@ K-Means clustering was used to detect patterns and potential anomalies in transa
 
 ### 2. **Silhouette Score**
 - Achieved a **silhouette score = 0.7439**, indicating strong separation among clusters.
-
-![Silhouette Score](assets/silhouette_score.png)
 
 ### 3. **Cluster Analysis**
 - Used features:
